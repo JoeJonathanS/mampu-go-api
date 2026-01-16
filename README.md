@@ -29,9 +29,7 @@ Aplikasi dompet digital sederhana yang dibangun dengan Golang, Fiber, dan MySQL.
 - DB_PORT=3306
 - DB_NAME=wallet
 
-4. Jalankan migrasi secara manual atau gunakan alat migrasi seperti golang-migrate.
-
-5. Jalankan aplikasi:
+4. Jalankan aplikasi:
    ```bash
    go run main.go
    ```
