@@ -23,6 +23,11 @@ Aplikasi dompet digital sederhana yang dibangun dengan Golang, Fiber, dan MySQL.
    ```
 
 3. Konfigurasi pengaturan database di file `.env`.
+- DB_USER=user
+- DB_PASSWORD=password
+- DB_HOST=127.0.0.1
+- DB_PORT=3306
+- DB_NAME=wallet
 
 4. Jalankan migrasi secara manual atau gunakan alat migrasi seperti golang-migrate.
 
