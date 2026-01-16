@@ -56,3 +56,8 @@ Untuk dokumentasi API detail termasuk contoh permintaan/respons dan kode error, 
 ## Migrasi
 
 File migrasi disediakan di folder `migrations/`. Anda dapat menggunakan alat seperti golang-migrate untuk menerapkannya.
+
+
+## Seeder
+
+Agar uji coba API lebih mudah, telah ditambahkan seeder database untuk 10 user mulai user dengan id 1-10 dengan saldo berkelipatan 100 (user 1 : 100, user 2 : 200, dst).
