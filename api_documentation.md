@@ -60,7 +60,7 @@ http://localhost:3000
     ```json
     {
         "success": true,
-        "message": "Penarikan berhasil",
+        "message": "Penarikan berhasil.  Sisa saldo Anda %.2f",
         "new_balance": 50.50
     }
     ```
@@ -77,7 +77,7 @@ http://localhost:3000
     ```json
     {
         "success": false,
-        "message": "Saldo tidak cukup"
+        "message": "Saldo tidak cukup. Sisa saldo Anda %.2f"
     }
     ```
   - **Kode**: 404 Not Found
